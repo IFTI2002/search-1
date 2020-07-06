@@ -1,0 +1,36 @@
+.search{
+    display: flx;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.corner {
+    position:absolute;
+    top:0;
+    right:0;
+}
+.google {
+  font-size: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+input[type="text"]{
+  width: 450px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 25px;
+}
+
+input[type="submit"]{
+  width: 105px;
+  height: 45px;
+  justify-content: center;
+
+
+}
