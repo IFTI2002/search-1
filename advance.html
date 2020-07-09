@@ -6,48 +6,50 @@
 
     </head>
     <body>
+
       <div class="corner">
         <a href="index.html">Google Search</a>
         <a href="images.html">Images Search</a>
       </div>
-
-
       <div class="advanced">
         Advanced Search
       </div>
 
-        <form class="advanced_search" action="https://google.com/search">
-          <div >
-            <p>all these words</p>
+
+
+      <div id="sections">
+
+        <div id="left">
+          <p>all these words</p>
+          <p>this exact word or phrase</p>
+          <p>any of these words</p>
+          <p>none of these words</p>
+        </div>
+
+        <div id="middle">
+          <form action="https://google.com/search">
             <input type="text" name="as_q">
-            <p class="hint">Type the important words:  tricolor rat terrier</p>
-
-          </div>
-
-          <div >
-            <p>this exact word or phrase</p>
             <input type="text" name="as_epq">
-            <p class="hint">Put exact words in quotes:  "rat terrier"</p>
-
-          </div>
-
-          <div>
-            <p>any of these words</p>
             <input type="text" name="as_oq">
-            <p class="hint">Type OR between all the words you want:  miniature OR standard</p>
-
-          </div>
-          <div class="">
-            <p>none of these words</p>
-
             <input type="text" name="as_eq">
-            <p class="hint">Put a minus sign just before words you don't want:  -rodent, -"Jack Russell"</p>
-
-
-          </div>
-
             <input type="submit" value=🔍>
-        </form>
+
+
+          </form>
+
+        </div>
+
+        <div id="right">
+          <p class="hint">Type the important words:  tricolor rat terrier</p>
+          <p class="hint">Put exact words in quotes:  "rat terrier"</p>
+          <p class="hint">Type OR between all the words you want:  miniature OR standard</p>
+          <p class="hint">Put a minus sign just before words you don't want:  -rodent, -"Jack Russell"</p>
+
+
+
+        </div>
+      </div>
+
 
 
 
